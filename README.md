@@ -29,3 +29,10 @@ Os dados são simulados através de uma mock API baseada em Promise e setTimeout
 - Vite
 - CSS3
 - Git / GitHub
+
+## 🌐 Preview Online
+
+Acesse a aplicação publicada:
+
+https://factory-view-dashboard.vercel.app/
+
