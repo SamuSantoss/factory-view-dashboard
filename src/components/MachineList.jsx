@@ -22,8 +22,10 @@ function MachineList({ machines, loading, error, onSelect, filter, selectedMachi
           `}
           onClick={() => onSelect(machine.id)}
         >
-          {machine.name} - <StatusBadge status={machine.status} />
-          
+          <div className="machine-row">
+          <span className="machine-name">{machine.name}</span>
+          <StatusBadge status={machine.status} />
+          </div>
         </li>
       ))}
     </ul>

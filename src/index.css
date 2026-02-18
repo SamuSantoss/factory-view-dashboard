@@ -184,6 +184,20 @@ h3{
   color: #38bdf8;
 }
 
+.machine-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.machine-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
 @media (max-width: 900px) {
   .dashboard {
     flex-direction: column;
